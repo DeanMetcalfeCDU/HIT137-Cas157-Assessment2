@@ -1,3 +1,7 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Adrian Voljak
+
+
 #Function that seperates the input string and splits it up between numbers and letters.
 def separate_string(s):
     
