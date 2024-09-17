@@ -1,0 +1,12 @@
+Total diseases extracted by SciSpacy: 23763
+Total diseases extracted by BioBERT: 21128
+Number of common diseases: 7486
+Number of diseases unique to SciSpacy: 16277
+Number of diseases unique to BioBERT: 13642
+
+Examples of common diseases: ['flexion deformities', 'HTN Hyperlipidemia Cardiomyopathy', 'Dysmotility', 'torsion', 'Gallstone pancreatis', 'valvular or ischemic disease', 'Osteopetrosis', 'right frontal arachnoid hemorrhage', 'elevated pulmonary venous pressure', 'carotid injury']
+
+Examples of diseases unique to SciSpacy: ['pleural effusions Respiratory failure Sepsis', "Parkinson's Disease. 4.  Depression", 'Anterior myocardial infarction', 'proctitis/colitis', "defect inferior wall', 'pain fluconazole", "inappropriate diuretic hormone', 'IVC/infra-renal mass s/p", 'injury or head trauma', 'HTN Colon polyps s/p polypectomy 3 yrs ago Radiation', "insufficiency/Addison's disease - needs stress", "left clavicular fracture left [**4-15**] posterior rib', '"]
+
+Examples of diseases unique to BioBERT: ['cerebellar hypodensity', 'oral lesions', 'Squamous cell lung ca', '##ronic Monocytic Myelogenous Leukemia Splenomegaly', '##cute Lymphoblastic Leukemia', 'poly - neuropathy', 'Non - Hodgkin', 'Ulnar Styloid Fracture', 'Bicuspid aortic valve 4.', 'Nonischemic cardiomyopathy obstructive sleep apnea']
+

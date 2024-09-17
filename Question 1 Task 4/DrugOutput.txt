@@ -1,0 +1,25 @@
+Total drugs extracted by SciSpacy: 434
+
+Top 10 most common drugs extracted by SciSpacy:
+HCO3: 9
+Alcohol: 8
+LLL: 6
+w/: 6
+STEMI: 5
+glucose: 5
+DM: 5
+alcohol: 4
+TIPS: 3
+pO2: 3
+
+We attempted to use multiple Transformers medical-based NER models, and while their NER results showed they were able to detect disease and medical terms, they all failed to detect any drug name entities. 
+
+Models Tested:
+
+dmis-lab/biobert-base-cased-v1.2 -  https://huggingface.co/dmis-lab/biobert-base-cased-v1.2
+
+alvaroalon2/biobert_chemical_ner - https://huggingface.co/alvaroalon2/biobert_chemical_ner 
+
+dmis-lab/biosyn-biobert-bc5cdr-chemical - https://huggingface.co/dmis-lab/biosyn-biobert-bc5cdr-chemical
+
+jsylee/scibert_scivocab_uncased-finetuned-ner - https://huggingface.co/jsylee/scibert_scivocab_uncased-finetuned-ner
