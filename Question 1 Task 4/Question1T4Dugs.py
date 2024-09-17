@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Dean Metcalfe
+
 import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 import spacy
@@ -109,7 +112,7 @@ def save_entities_to_json(entities, output_file):
 
 # Main function to run both extractions
 def main():
-    input_file = 'C:/Users/deanm/OneDrive/CDU/Sem2-24/HIT137/Assessments/Assessment 2/Question 1 Task 1/combined_text.txt'  # Replace this with the path to merged text file
+    input_file = 'C:/Users/deanm/OneDrive/CDU/Sem2-24/HIT137/Assessments/Assessment 2/Question 1 Task 1/combined_text.txt' 
 
     # Extract chemicals using SciSpacy
     scispacy_chemicals = extract_chemicals_scispacy(input_file)
