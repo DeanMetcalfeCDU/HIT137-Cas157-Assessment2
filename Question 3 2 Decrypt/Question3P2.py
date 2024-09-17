@@ -58,7 +58,7 @@ cevag(tybony_inevnoyr)
 cevag(zl_qvpg)
 cevag(zl_frg)
 """
-#Decrpyt the code
+
 # Decrypt the code
 key = 13
 decrypted_code = decrypt(encrypted_code, key)
