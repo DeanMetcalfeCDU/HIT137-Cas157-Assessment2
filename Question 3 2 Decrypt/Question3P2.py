@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Group 157 (Adrian Voljak & Dean Metcalfe)
+
 def decrypt(text, key):
     decrypted_text = ""
     for char in text:
