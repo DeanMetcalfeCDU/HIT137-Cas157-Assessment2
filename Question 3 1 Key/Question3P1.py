@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Group 157 (Adrian Voljak & Dean Metcalfe)
+
 def find_key():
     # First code segment
     total = 0
