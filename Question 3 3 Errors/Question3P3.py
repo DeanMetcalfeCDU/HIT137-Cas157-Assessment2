@@ -14,13 +14,15 @@ def process_numbers():
     return numbers
 
 my_set = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1}
-result = process_numbers(numbers=my_set)
+#result = process_numbers(numbers=my_set)
+result = process_numbers()
 
 def modify_dict():
     local_variable = 10
     my_dict['key4'] = local_variable
 
-modify_dict(5)
+#modify_dict(5)
+modify_dict()
 
 def update_global():
     global global_variable
@@ -28,7 +30,7 @@ def update_global():
 
 for i in range(5):
     print(i)
-    i += 1
+    #i += 1
 
 if my_set is not None and my_dict['key4'] == 10:
     print("Condition met!")
