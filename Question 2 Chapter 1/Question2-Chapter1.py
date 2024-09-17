@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Adrian Voljak
+
 #Chapter 1
 #Libraries Needed for both the algorithm and the image modifier
 import time
