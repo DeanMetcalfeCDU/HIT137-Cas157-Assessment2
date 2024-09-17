@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Dean Metcalfe
+
 """
 There are specific environment requirements in order to install SciSpacy. We will use steps provided by SciSpacy's Github (https://github.com/allenai/scispacy).
 We will use Mamaba (https://mamba.readthedocs.io/en/latest/) & Anaconda (https://www.anaconda.com/download) to create a conda Virtual Environment that uses Python 3.10 and nmslib and configure our Python IDE interpreter to use this environment.
