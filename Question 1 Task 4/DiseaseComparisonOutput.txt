@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Dean Metcalfe
+
 Total diseases extracted by SciSpacy: 23763
 Total diseases extracted by BioBERT: 21128
 Number of common diseases: 7486
