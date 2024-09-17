@@ -1,3 +1,8 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Group 157 (Adrian Voljak & Dean Metcalfe)
+
+# Detected Errors turned into comments, new code added where necessary
+
 global_variable = 100
 my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 
