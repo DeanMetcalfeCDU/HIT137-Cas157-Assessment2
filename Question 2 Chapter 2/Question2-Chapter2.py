@@ -37,12 +37,6 @@ numbers, letters = separate_string(s_shift_key)
 #Converts the digits and numbers into ASCII values.
 ascii_numbers, ascii_letters = substring_converter(numbers, letters)
 
-#This outputs the numbers, letters, even ASCII values and Uppercase ASCII values from their respective substrings.
-print("Numbers substring:", numbers)
-print("Letters substring:", letters)
-print("Even ASCII values from numbers substring:", ascii_numbers)
-print("Uppercase ASCII values from letters substring:", ascii_letters)
-
 #This loops through all '26' letters, checks if the decrypted text contains the word "the". Once it correctly loops it will then print out the decrypted text once it finds readable words.
 for shift in range(1, 26):
     decrypted = text_decrypter(s_shift_key, shift)
