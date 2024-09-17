@@ -41,5 +41,5 @@ ascii_numbers, ascii_letters = substring_converter(numbers, letters)
 for shift in range(1, 26):
     decrypted = text_decrypter(s_shift_key, shift)
     if "the" in decrypted.lower():
-        print(f"Shift {shift}: {decrypted}")
+        print(decrypted)
         break
