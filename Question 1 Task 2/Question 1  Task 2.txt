@@ -1,0 +1,30 @@
+"""
+There are specific environment requirements in order to install SciSpacy. We will use steps provided by SciSpacy's Github (https://github.com/allenai/scispacy).
+We will use Mamaba (https://mamba.readthedocs.io/en/latest/) & Anaconda (https://www.anaconda.com/download) to create a conda Virtual Environment that uses Python 3.10 and nmslib and configure our Python IDE interpreter to use this environment.
+"""
+
+# In anaconda terminal create a Conda environment called "scispacy" with Python 3.10
+mamba create -n scispacy python=3.10
+
+# Activate the Mamba environment.
+mamba activate scispacy
+
+# Install nmslib
+pip install mslib
+
+# Install spacy
+pip install spacy
+
+# Install scispacy
+pip install scispacy
+
+# Install 'en_core_sci_md' scispacy model
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz
+
+# Install 'en_ner_bc5cdr_md' scispacy model
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+
+# Install transformers
+pip install transformers
+
+# Add this new virtual environment to your Python IDE as an intepreter by selecting the python exe in the Users\deanm\anaconda3\envs\scispacy
