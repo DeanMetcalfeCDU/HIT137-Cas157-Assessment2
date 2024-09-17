@@ -1,3 +1,6 @@
+# https://github.com/DeanMetcalfeCDU/HIT137-Cas157-Assessment2
+# Created by Dean Metcalfe
+
 import csv
 from collections import Counter
 from transformers import AutoTokenizer
